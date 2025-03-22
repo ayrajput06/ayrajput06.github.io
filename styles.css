@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #4CAF50; /* Green background for navigation */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white; /* White text for navigation links */
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    color: #4CAF50; /* Green color for headings */
+    font-size: 2em; /* Size adjustment */
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Non-default serif font */
+    color: #333;
+    font-size: 1.5em; /* Size adjustment */
+}
+
+p, ul, dl {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555; /* Dark gray for text */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+
+
+/* Baking Page Specific Styles */
+body.baking {
+    background-color: #ffe6f2;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff66b2; /* Pink color for text */
+}
+
+h1.baking {
+    color: #ff66b2;
+    font-size: 2em; /* Size adjustment */
+}
+
+ul.baking {
+    list-style-type: square;
+    color: #ff66b2;
+    font-weight: bold; /* Bold text */
+}
+
+a.baking {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+a.baking:hover {
+    text-decoration: underline;
+}
